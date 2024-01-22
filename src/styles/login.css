@@ -1,0 +1,75 @@
+.login-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+ box-shadow: black 0px 0px 10px 0px;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: white;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+}
+.login-form-input{
+    display: flex;
+    flex-direction: column;
+    background-color:#317242;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+
+}
+.login-form-button{
+    background-color:#014d12;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+     
+}
+.login-form-button:hover{
+    background-color: #317242;
+    color: white;
+}
+.input-box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 2px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+span.error-message {
+    color: rgb(151, 18, 18);
+    font-size: 14px; 
+  }
+  
+  
+  input.input-box.error {
+    border: 1px solid rgb(151, 18, 18);
+  }
+  

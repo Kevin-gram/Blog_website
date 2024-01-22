@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.about-me{
+    background-color:#7e917f;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image:url('../images/pexels-pixabay-531880.jpg');
+    background-size: cover;
+margin-bottom: 30px;
+  }
+  .avatar{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color:#7e917f;
+    margin-bottom: 20px;
+  }
+  .Discription{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    background-color: #317242;
+    border-radius: 20px;
+    font-weight:900;
+  }
+  .title{
+    padding-top: 20px;
+    font-size: 50px;
+    color: saddlebrown;
+    font-weight:900;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    font-weight: bolder;
+  }
+
+
+
+  @media screen and (max-width: 600px) {
+    .Discription{
+        width: 80%;
+        text-align: center;
+        font-size: 20px;
+        color: black;
+        font-family: 'Poppins', sans-serif;
+        background-color: rgb(21, 6, 31);
+        border-radius: 5px;
+        font-weight: bolder;
+      }
+      .title{
+        padding-top: 20px;
+        font-size: 30px;
+        color: black;
+        font-family: 'Poppins', sans-serif;
+        border-radius: 5px;
+        font-weight: bolder;
+      }
+      .about-me{
+        background-color:whitesmoke;
+        min-height: 70vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      
+        background-size: cover;
+      }
+    /* Additional styles specific to small screens */
+  }
+  
+  /* Styles for medium screens (601px to 1024px) */
+  @media screen and (min-width: 601px) and (max-width: 1024px) {
+    body {
+      background-color: lightgreen;
+    }
+  
+    /* Additional styles specific to medium screens */
+    .about-me{
+        background-color:whitesmoke;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-image:url('../images/pexels-fwstudio-172292.jpg');
+        background-size: cover;
+      }
+
+      .title{
+        padding-top: 20px;
+        font-size: 30px;
+        color: black;
+        font-family: 'Poppins', sans-serif;
+        border-radius: 5px;
+        font-weight: bolder;
+      }
+     
+  }
+  
+  /* Styles for larger screens (1025px and above) */
+  @media screen and (min-width: 1025px) {
+    body {
+      background-color: lightyellow;
+    }
+  
+    /* Additional styles specific to large screens */
+  }

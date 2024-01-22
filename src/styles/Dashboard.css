@@ -1,0 +1,8 @@
+.Side-head{
+    display: flex;
+    flex-direction: row;
+
+}
+.topic{
+    width: 80%;
+}
